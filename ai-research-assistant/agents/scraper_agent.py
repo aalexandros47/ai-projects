@@ -8,7 +8,7 @@ def scrape_url(url):
         soup = BeautifulSoup(response.text, "html.parser")
         paragraphs = soup.find_all("p")
         text = " ".join([para.get_text() for para in paragraphs])
-        return text[:5000]
+        return text[:5000]  # limit text length
     except Exception as e:
         print("❌ Error scraping:", e)
         return ""

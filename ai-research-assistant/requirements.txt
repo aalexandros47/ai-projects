@@ -1,8 +1,7 @@
 streamlit
 transformers
 torch
-beautifulsoup4
+fpdf
+bs4
 requests
 python-dotenv
-fpdf
-
