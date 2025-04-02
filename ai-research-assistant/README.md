@@ -60,7 +60,7 @@ https://huggingface.co/spaces/arnob47/ai-research-assistant
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/aalexandros47/ai-research-assistant
+git clone https://github.com/aalexandros47/ai-projects/ai-research-assistant
 cd ai-research-assistant
 
 # 2. Create and activate a virtual environment (recommended)
