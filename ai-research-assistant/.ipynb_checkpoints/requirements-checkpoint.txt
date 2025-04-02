@@ -1,0 +1,7 @@
+with open("requirements.txt", "w") as f:
+    f.write("""streamlit
+openai
+beautifulsoup4
+requests
+python-dotenv
+""")
